@@ -1,20 +1,20 @@
-<nav class="navbar navbar-default">
-  <div class="container-fluid">
-    <div class="navbar-header">
-      <a href="#" class="navbar-brand">Recipe Book</a>
+<nav class="navbar navbar-default  ">
+  <div class="container-fluid haeder-color-top">
+    <div class="navbar-header ">
+      <a href="#" class="navbar-brand"style="color: black; font-size:25px;">Recipe Book</a>
     </div>
-
+  
     <div class="collapse navbar-collapse">
       <ul class="nav navbar-nav">
-        <li><a href="#" (click)="onSelect('recipe')">Recipes</a></li>
-        <li><a href="#" (click)="onSelect('shopping-list')">Shopping List</a></li>
+        <li><a href="#" style="color: #061d15; font-size:18px;"(click)="onSelect('recipe')">Recipes</a></li>
+        <li><a href="#" style="color: #061d15; font-size:18px;"(click)="onSelect('shopping-list')">Shopping List</a></li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
         <li class="dropdown" appDropdown>
-          <a href="#" class="dropdown-toggle" role="button">Manage <span class="caret"></span></a>
+          <a href="#" class="dropdown-toggle" role="button" style="color: #061d15; font-size:18px;">Manage <span class="caret"></span></a>
           <ul class="dropdown-menu">
-            <li><a href="#">Save Data</a></li>
-            <li><a href="#">Fetch Data</a></li>
+            <li><a class ="save-fetch" href="#">Save Data</a></li>
+            <li><a class ="save-fetch" href="#">Fetch Data</a></li>
           </ul>
         </li>
       </ul>
